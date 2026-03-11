@@ -13,6 +13,6 @@ public class Travelia implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		LOGGER.info("[Travelia] Initializing");
 	}
 }
