@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "travelia",
+	"version": "${version}",
+	"name": "Travelia",
+	"description": "A Traveling Adventure Mod",
+	"authors": [
+		"Antaner"
+	],
+	"contact": {
+		"homepage": "https://github.com/antaner",
+		"sources": "https://github.com/antaner/travelia"
+	},
+	"license": "MIT",
+	"icon": "assets/travelia/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.antaner.travelia.Travelia"
+		],
+		"fabric-datagen": [
+			"net.antaner.travelia.TraveliaDataGenerator"
+		],
+		"client": [
+			"net.antaner.travelia.TraveliaModClient"
+		]
+	},
+	"mixins": [
+		"travelia.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

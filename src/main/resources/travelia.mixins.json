@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.antaner.travelia.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
